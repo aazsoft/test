@@ -38,6 +38,7 @@ public class ConversionServiceFactory {
      * K 1 0 0 -- support conversion from K to C
      * </pre>
      */
+    // however, to simplify the solution, i only use if else statements
     if (sourceUnit.isC() && targetUnit.isF()) {
       return new C2FConversionServiceImpl();
     }

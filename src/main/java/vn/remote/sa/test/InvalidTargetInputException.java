@@ -1,7 +1,7 @@
 package vn.remote.sa.test;
 
 /**
- * Sub-class for exception handling when invalid source input.
+ * Sub-class for exception handling when invalid target input.
  * 
  * @author truong.le
  */

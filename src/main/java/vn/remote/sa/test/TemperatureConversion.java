@@ -59,6 +59,8 @@ public class TemperatureConversion {
     new TemperatureConversion().convert(fahrenheit, F_UNIT).execute();
     // no input for source temperature unit
     new TemperatureConversion().convert(fahrenheit, null).to(F_UNIT).execute();
+    // not supported convert method from K to F
+    new TemperatureConversion().convert(kelvin, K_UNIT).to(F_UNIT).execute();
   }
 
   /**
